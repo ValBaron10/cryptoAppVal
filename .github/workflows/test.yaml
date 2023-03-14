@@ -34,4 +34,4 @@ jobs:
           pip install pytest
         # Run the tests
       - name: Run tests
-        run: pytest tests.py
+        run: pytest test/tests_algos.py

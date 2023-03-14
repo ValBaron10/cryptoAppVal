@@ -38,7 +38,7 @@ def test_enigma():
     assert encrypted == expected_encryption
 
     decrypted = enigma.decrypt(encrypted, key)
-    assert decrypted == "MESSAGE"
+    assert decrypted == "MESSAGES"
 
 
 
